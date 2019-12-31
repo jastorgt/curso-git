@@ -1,0 +1,19 @@
+echo "# curso-git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/jastorgt/curso-git.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/jastorgt/curso-git.git
+git push -u origin master
+
+fijar ruta remota
+
+git remote add origin https://github.com/jastorgt/curso-git.git
+
+
+
+git config user.email "jastorgt@gmail.com" 
+git config user.name "jastorgt" 
